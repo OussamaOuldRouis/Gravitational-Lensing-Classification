@@ -64,17 +64,8 @@ The core approach relies on **Transfer Learning** and **Fine-tuning**.
     *   Predictions (class probabilities) are generated for the validation set.
     *   ROC curves and AUC scores are calculated for each class using a one-vs-rest approach.
 
-## Requirements
+# Google Colab Link
 
-*   Python 3.x
-*   PyTorch (`torch`)
-*   Torchvision (`torchvision`)
-*   NumPy (`numpy`)
-*   Matplotlib (`matplotlib`)
-*   Scikit-learn (`sklearn`)
-*   OS (`os`)
-*   Itertools (`itertools`)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MR7KaN42jo81Fm-liFVTo_Y5s5e7_lNB?usp=sharing)
 
-You can install the required Python packages using pip:
-```bash
-pip install torch torchvision numpy matplotlib scikit-learn
+**Click the badge above to open and run the project directly in Google Colab.** This is the recommended way to run the code as it includes setup for accessing the dataset directly within the Colab environment 
