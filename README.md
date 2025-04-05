@@ -15,7 +15,7 @@ The model's performance is evaluated using Receiver Operating Characteristic (RO
 
 The ROC curve plots the True Positive Rate (TPR) against the False Positive Rate (FPR) at various threshold settings. The AUC provides an aggregate measure of performance across all possible classification thresholds.
 
-![Receiver Operating Characteristic (ROC) Curve](roc_curve.png)
+![Receiver Operating Characteristic (ROC) Curve](roc_curve_auc_score.png)
 
 *   **Interpretation:** The plot shows the trade-off between sensitivity (TPR) and specificity (1-FPR) for each class. Higher curves (closer to the top-left corner) indicate better performance. The AUC scores quantify this:
     *   No Substructure: AUC = 0.75
